@@ -1,10 +1,11 @@
 .footer {
     background-color: black;
     color: white;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     font-weight: 400;
+    height: 13rem;
 }
 
 .logoContainer {

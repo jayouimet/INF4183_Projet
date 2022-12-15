@@ -2,6 +2,21 @@
   padding: 0 2rem;
 }
 
+.imgSection {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.pageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+
+.contentWrap {
+    padding-bottom: 14rem;    /* Footer height */
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -12,7 +27,7 @@
   align-items: center;
 }
 
-.footer {
+/*.footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -26,7 +41,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
+}*/
 
 .title a {
   color: #0070f3;

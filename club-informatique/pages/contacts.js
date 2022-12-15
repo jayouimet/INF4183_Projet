@@ -5,10 +5,12 @@ import Footer from '../components/footer/footer'
 
 export default function Contacts() {
     return (
-        <>
-            <BannerTitle>Some text</BannerTitle>
-            Contacts
+        <div className={styles.pageContainer}>
+            <div className={styles.contentWrap}>
+                <BannerTitle>Some text</BannerTitle>
+                Contacts
+            </div>
             <Footer currentPage={3} />
-        </>
+        </div>
     )
 }
