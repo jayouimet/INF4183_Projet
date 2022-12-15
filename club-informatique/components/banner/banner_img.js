@@ -7,7 +7,12 @@ export default function BannerImg() {
         <Image 
             src={img}
             alt="Banner Image"
-            fill="true"
+            style={{
+                objectFit: "contain",
+                position: "absolute",
+                bottom: -150,
+                width: '100%'
+            }}
         />
     );
 }

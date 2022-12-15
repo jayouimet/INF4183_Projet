@@ -7,8 +7,8 @@ export default function Banner({title}) {
     return (
         <Grid container justifyContent="center">
             <div id={styles.banner}>
-                <BannerImg />
-                <BannerTitle title={title} />
+                <BannerImg/>
+                <BannerTitle title={title}/>
             </div>
         </Grid>
     );

@@ -7,6 +7,7 @@ export default function FooterImg({children, ...props}) {
             src={img}
             fill={true}
             style={{objectFit: "contain"}}
+            alt="FooterImg"
         />
     );
 }
