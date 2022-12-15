@@ -1,25 +1,32 @@
 import NavLink from "./navlink";
 import styles from "./navbar.module.css";
-import { Grid } from "@mui/material";
+import { Grid, Item } from "@mui/material";
+import NavIcon from "./navicon";
 
 export default function Navbar() {
     const links = [
         { "href": "/", "title": "Accueil" },
         { "href": "/news", "title": "Nouvelles" },
         { "href": "/projects", "title": "Projets" },
-        { "href": "/contacts", "title": "Contacter-nous" }
+        { "href": "/contacts", "title": "Contacts" }
     ];
 
     const linksList = links.map(function (obj) {
-        return <NavLink href={obj.href} title={obj.title} />;
+        return (
+            <Grid item xs={12 / links.length}>
+                <NavLink href={obj.href} title={obj.title} />
+            </Grid>
+        );
     });
 
     return (
         <Grid container id={styles.navbar}>
-            <Grid item xs={4}>
-
+            <Grid container xs={6} alignItems="center" justifyContent="space-around">
+                <Grid item xs={10}>
+                    <NavIcon />
+                </Grid>
             </Grid>
-            <Grid item xs={8} justifyContent="right">
+            <Grid container xs={6} justifyContent="flex-end" alignItems="center">
                 {linksList}
             </Grid>
         </Grid>
