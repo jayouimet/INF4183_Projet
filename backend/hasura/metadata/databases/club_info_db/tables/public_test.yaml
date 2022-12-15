@@ -1,0 +1,11 @@
+table:
+  name: test
+  schema: public
+select_permissions:
+  - role: anonymous
+    permission:
+      columns:
+        - id
+        - some_string
+      filter: {}
+      allow_aggregations: true
