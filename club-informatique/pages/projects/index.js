@@ -1,9 +1,11 @@
-import styles from '../../styles/Home.module.css'
+import Footer from "../../components/footer/footer";
+
 
 export default function Projects() {
-  return (
-    <div className={styles.container}>
-      Projects
-    </div>
-  )
+    return (
+        <>
+            Projects
+            <Footer currentPage={3} />
+        </>
+    )
 }
