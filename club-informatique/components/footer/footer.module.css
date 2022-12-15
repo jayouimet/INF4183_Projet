@@ -1,0 +1,14 @@
+.footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-weight: 400;
+}
+
+.logoContainer {
+    width: 4vw;
+    height: 4vh;
+    position: relative;
+}
