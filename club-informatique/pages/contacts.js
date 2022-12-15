@@ -1,16 +1,19 @@
 import styles from '../styles/Home.module.css'
-import BannerTitle from '../components/banner/banner_title'
 import Footer from '../components/footer/footer'
+import Banner from "../components/banner/banner";
+import Navbar from '../components/navbar/navbar';
+import ContactSection from "../components/contacts-section/contact_section";
 
 
 export default function Contacts() {
     return (
         <div className={styles.pageContainer}>
             <div className={styles.contentWrap}>
-                <BannerTitle>Some text</BannerTitle>
-                Contacts
+                <Navbar />
+                <Banner title="Contacts" />
+                <ContactSection />
             </div>
             <Footer currentPage={3} />
         </div>
-    )
+    );
 }
