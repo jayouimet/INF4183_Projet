@@ -5,7 +5,7 @@ export default function Projects() {
     return (
         <>
             Projects
-            <Footer currentPage={3} />
+            <Footer currentPage={2} />
         </>
     )
 }

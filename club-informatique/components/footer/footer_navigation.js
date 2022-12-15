@@ -14,10 +14,10 @@ export default function FooterNavigation({currentPage, ...props}) {
                 container
                 direction="column"
                 justifyContent="left">
-                <FooterLink>{currentPage == 0 ? '▸' : ''}Accueil</FooterLink>
-                <FooterLink>{currentPage == 1 ? '▸' : ''}Nouveautés</FooterLink>
-                <FooterLink>{currentPage == 2 ? '▸' : ''}Contacts</FooterLink>
-                <FooterLink>{currentPage == 3 ? '▸' : ''}Projets</FooterLink>
+                <FooterLink href="/">{currentPage == 0 ? '▸' : ''}Accueil</FooterLink>
+                <FooterLink href="/news">{currentPage == 1 ? '▸' : ''}Nouveautés</FooterLink>
+                <FooterLink href="/projects">{currentPage == 2 ? '▸' : ''}Projets</FooterLink>
+                <FooterLink href="/contacts">{currentPage == 3 ? '▸' : ''}Contacts</FooterLink>
             </Grid>
         </Grid>
     );
