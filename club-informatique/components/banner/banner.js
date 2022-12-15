@@ -5,7 +5,7 @@ import BannerTitle from "./banner_title";
 
 export default function Banner({title}) {
     return (
-        <Grid container justifyContent="center">
+        <Grid container justifyContent="center" sx={{maxHeight: "8vw"}}>
             <div id={styles.banner}>
                 <BannerImg/>
                 <BannerTitle title={title}/>

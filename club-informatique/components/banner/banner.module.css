@@ -3,4 +3,5 @@
     height:20vh;
     position: relative;
     overflow: hidden;
+    max-height: 8vw;
 }

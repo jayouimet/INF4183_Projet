@@ -9,6 +9,7 @@ export default function ContactSection() {
         <>
             <Grid container>
                 <Grid item xs={6}>
+                    <h1>Membres</h1>
                     <MembersList />
                 </Grid>
                 <Grid item xs={6}>

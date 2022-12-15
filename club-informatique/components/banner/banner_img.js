@@ -8,10 +8,9 @@ export default function BannerImg() {
             src={img}
             alt="Banner Image"
             style={{
-                objectFit: "contain",
+                objectFit: "cover",
                 position: "absolute",
-                bottom: -150,
-                width: '100%'
+                maxHeight: "25vh"
             }}
         />
     );
