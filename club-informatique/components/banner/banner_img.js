@@ -8,7 +8,6 @@ export default function BannerImg() {
             src={img}
             alt="Banner Image"
             fill="true"
-            id={styles.banner_img}
         />
     );
 }

@@ -9,7 +9,7 @@ export default function BannerTitle({title}) {
         alignItems="center"
         id={styles.title_box}
     >
-        <h1>{title}</h1>
+        <h1 id={styles.banner_title}>{title}</h1>
     </Grid>
     );
 }
