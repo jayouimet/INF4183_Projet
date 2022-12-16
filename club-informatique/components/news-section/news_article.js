@@ -16,7 +16,7 @@ export default function NewsArticle({id, title, content, ...props}) {
     }
 
     return (
-        <div key={id} onClick={handleExpand}>
+        <div className={styles.newsArticle} key={id} onClick={handleExpand}>
             <Grid 
                 container
                 direction={"row"}

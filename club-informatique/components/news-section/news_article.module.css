@@ -50,3 +50,7 @@
     margin-right: 32px;
     margin-bottom: 16px;
 }
+
+.newsArticle {
+    cursor: pointer;
+}
