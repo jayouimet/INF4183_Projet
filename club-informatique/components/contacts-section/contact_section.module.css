@@ -12,7 +12,7 @@
 }
 
 .text_field{
-    color: white;
+    color: white !important;
 }
 
 .items {
