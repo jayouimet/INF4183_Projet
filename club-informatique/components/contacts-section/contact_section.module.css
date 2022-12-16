@@ -1,0 +1,21 @@
+#contact_section {
+    max-width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact_form {
+    background-color: #15607C;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    color: white;
+}
+
+.text_field{
+    color: white;
+}
+
+.items {
+    margin-top:1.25vh;
+}

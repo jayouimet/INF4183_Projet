@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import img from "../../assets/banner_img.png";
-import styles from "./banner.module.css";
 
 export default function BannerImg() {
     return (
