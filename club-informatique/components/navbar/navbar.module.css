@@ -9,3 +9,7 @@
     width: 65vw;
     margin: auto;
 }
+
+.activeLink{
+    color:rgba(255, 0, 0, 0.875);
+}

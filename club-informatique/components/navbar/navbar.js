@@ -19,7 +19,7 @@ export default function Navbar() {
 
     const linksList = links.map(function (obj) {
         return (
-            <Grid item xs={12 / links.length}>
+            <Grid item xs={12 / links.length} key={obj.title}>
                 <NavLink href={obj.href} title={obj.title} />
             </Grid>
         );

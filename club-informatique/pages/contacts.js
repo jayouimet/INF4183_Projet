@@ -10,9 +10,9 @@ export default function Contacts() {
 
     return (
         <div className={styles.pageContainer}>
-            <Navbar />
-            <Banner title="Contacts" />
             <div className={styles.contentWrap}>
+                <Navbar />
+                <Banner title="Contacts" />
                 <ContactSection />
             </div>
             <Footer currentPage={3} />

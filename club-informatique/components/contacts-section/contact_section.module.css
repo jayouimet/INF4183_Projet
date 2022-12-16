@@ -1,7 +1,6 @@
 #contact_section {
     max-width: 65vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 #contact_form {

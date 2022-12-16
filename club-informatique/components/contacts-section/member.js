@@ -17,7 +17,7 @@ export default function Member({ memberInfo }) {
                         <Grid item>{memberInfo.phone}</Grid>
                     </Grid>
                 </Grid>
-                <Grid xs={2}></Grid>
+                <Grid item xs={2}></Grid>
             </Grid>
         </div>
     );
