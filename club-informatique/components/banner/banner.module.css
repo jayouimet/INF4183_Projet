@@ -5,3 +5,7 @@
     overflow: hidden;
     max-height: 8vw;
 }
+
+.containerSpacing {
+    margin-top:7.5vh;
+}

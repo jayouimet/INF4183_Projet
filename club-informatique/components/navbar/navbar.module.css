@@ -3,6 +3,9 @@
     color:white;
     height:7.5vh;
     font-size: large;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .navbarContent {
