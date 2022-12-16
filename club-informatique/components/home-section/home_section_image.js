@@ -4,8 +4,13 @@ import Image from "next/image";
 export default function HomeSectionImage({src, alt, ...props}) {
     return (
         <Image 
+            style={{
+                objectFit: "cover", 
+                width: '100%',
+                height: '100%'
+
+            }}
             fill={true}
-            style={{objectFit: "contain"}}
             alt={alt}
             src={src}
             {...props}

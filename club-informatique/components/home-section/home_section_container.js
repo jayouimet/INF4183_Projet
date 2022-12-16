@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import styles from "./home_section_container.module.css";
 
 export default function HomeSectionContainer({children, ...props}) {
     return (
@@ -8,6 +9,7 @@ export default function HomeSectionContainer({children, ...props}) {
             justifyContent="center"
             alignItems="center"
             rowGap="16px"
+            className={styles.container}
             {...props}>
             {children}
         </Grid>

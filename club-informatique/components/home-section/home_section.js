@@ -1,14 +1,13 @@
 import { Grid } from "@mui/material";
 
-export default function HomeSection({children, reversed, ...props}) {
+export default function HomeSection({children, ...props}) {
     return (
         <Grid
             container
-            direction={reversed ? "row-reverse" : "row"}
+            direction={"row"}
             justifyContent={"space-between"}
-            alignItems="center"
+            alignItems="flex-start"
             columnGap="32px"
-
             {...props}>
             {children}
         </Grid>

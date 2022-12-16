@@ -3,9 +3,14 @@
 }
 
 .imgSection {
-    height: 200px;
-    width: 200px;
+    width: 1000px;
+    max-width: 35%;
+    aspect-ratio: 1.5 / 1;
     position: relative;
+}
+
+.contentSection {
+    height: 100%;
 }
 
 .pageContainer {
@@ -15,6 +20,14 @@
 
 .contentWrap {
     padding-bottom: 14rem;    /* Footer height */
+}
+
+.imgRight {
+    margin-right: 0;
+}
+
+.imgLeft {
+    margin-left: 0;
 }
 
 .main {
