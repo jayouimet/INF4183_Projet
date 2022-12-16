@@ -4,3 +4,8 @@
     height:7.5vh;
     font-size: large;
 }
+
+.navbarContent {
+    width: 65vw;
+    margin: auto;
+}
