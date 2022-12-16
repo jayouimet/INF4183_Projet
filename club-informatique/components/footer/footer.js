@@ -13,7 +13,7 @@ export default function Footer({currentPage, ...props}) {
                 justifyContent="center"
                 alignItems="center"
                 columnGap="32px">
-                <Grid xm={2} xs={2}
+                <Grid xm={2} xs={2} item
                     container
                     direction="column"
                     justifyContent="left"

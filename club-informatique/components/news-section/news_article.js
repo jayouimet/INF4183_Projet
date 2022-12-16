@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import NewsPost from './news_post';
 import NewsContent from './news_content';
 import NewsImage from './news_image';
-import img from '../../assets/placeholder.gif';
+import img from '../../public/assets/placeholder.gif';
 import styles from './news_article.module.css';
 import { useState } from "react";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';

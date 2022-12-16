@@ -4,7 +4,7 @@ import { Grid } from '@mui/material'
 export default function FooterNavigation({currentPage, ...props}) {
     return (
         <Grid
-            container
+            container item
             direction="column"
             justifyContent="left"
             rowGap="16px"

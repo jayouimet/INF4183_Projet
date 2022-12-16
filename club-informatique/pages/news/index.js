@@ -38,7 +38,7 @@ export default function News() {
 
         const toRender = posts.map((post) => {
             return (
-                <NewsArticle id={i++} title={post.title} content={post.content}/>
+                <NewsArticle key={i} id={i++} title={post.title} content={post.content}/>
             );
         });
 

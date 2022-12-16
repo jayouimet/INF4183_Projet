@@ -4,7 +4,7 @@ import NewsTitle from "./news_title";
 export default function NewsContent({title, children, ...props}) {
     return (
         <Grid
-            container
+            container item
             direction={"column"}
             justifyContent={"flex-start"}
             alignItems="flex-start"

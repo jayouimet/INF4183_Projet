@@ -43,7 +43,7 @@ export default function Navbar({isMainPage, ...props}) {
                     </Grid>
                     <Grid item xs={1}>
                         <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
-                            {theme.palette.mode === 'dark' ? <DarkModeIcon /> : <LightModeIcon />}
+                            {theme.palette.mode === 'light' ? <DarkModeIcon /> : <LightModeIcon />}
                         </IconButton>
                     </Grid>
                 </Grid>

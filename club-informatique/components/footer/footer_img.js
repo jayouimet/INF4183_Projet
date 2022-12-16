@@ -1,5 +1,5 @@
 import Image  from 'next/image';
-import img from "../../assets/uqo_logo_w.png";
+import img from "../../public/assets/uqo_logo_w.png";
 
 export default function FooterImg({children, ...props}) {
     return (

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img from "../../assets/banner_img.png";
+import img from "../../public/assets/banner_img.png";
 
 export default function BannerImg() {
     return (

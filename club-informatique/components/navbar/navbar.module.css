@@ -10,7 +10,7 @@
 
 .navbarContent {
     width: 65vw;
-    margin: auto;
+    margin: auto !important;
 }
 
 .activeLink{

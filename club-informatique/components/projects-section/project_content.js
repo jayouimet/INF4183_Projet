@@ -4,7 +4,7 @@ import ProjectTitle from "./project_title";
 export default function ProjectContent({title, children, ...props}) {
     return (
         <Grid
-            container
+            container item
             direction={"column"}
             justifyContent={"flex-start"}
             alignItems="flex-start"

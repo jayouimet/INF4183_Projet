@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import img from "../../assets/placeholder.gif";
 import styles from "./contact_section.module.css";
 import { IconButton, Collapse, Alert, Button, Grid, TextField, ThemeProvider, useTheme } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
