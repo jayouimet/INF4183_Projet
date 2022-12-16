@@ -7,6 +7,18 @@
     max-width: 35%;
     aspect-ratio: 1.5 / 1;
     position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.newsImgSection {
+    height: 1000px;
+    max-width: 20%;
+    max-height: 9em;
+    aspect-ratio: 1.5 / 1;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .contentSection {
@@ -136,11 +148,55 @@
   margin-left: 0.5rem;
 }
 
+@media (min-width: 1860px) {
+    .text {
+      font-size: 16px;
+    }
+
+    .pageContainer div, .pageContainer p, .pageContainer a {
+        font-size: 16px;
+    }
+
+    .pageContainer h1 {
+        font-size: 36px;
+    }
+
+    .pageContainer h2 {
+        font-size: 24px;
+    }
+
+    .pageContainer h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 2440px) {
+    .text {
+        font-size: 20px;
+    }
+
+    .pageContainer div, .pageContainer p, .pageContainer a {
+        font-size: 20px;
+    }
+
+    .pageContainer h1 {
+        font-size: 40px;
+    }
+
+    .pageContainer h2 {
+        font-size: 26px;
+    }
+
+    .pageContainer h3 {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
 }
 
 @media (prefers-color-scheme: dark) {

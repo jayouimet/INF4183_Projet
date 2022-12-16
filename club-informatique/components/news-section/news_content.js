@@ -8,7 +8,6 @@ export default function NewsContent({title, children, ...props}) {
             direction={"column"}
             justifyContent={"flex-start"}
             alignItems="flex-start"
-            rowGap="16px"
             xs="auto"
             xl="auto"
             {...props}>

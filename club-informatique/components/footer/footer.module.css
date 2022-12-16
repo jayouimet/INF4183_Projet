@@ -9,6 +9,18 @@
     padding: 16px;
 }
 
+@media (min-width: 1860px) {
+    .footer {
+        height: 14rem;
+    }
+}
+
+@media (min-width: 2440px) {
+    .footer {
+        height: 16rem;
+    }
+}
+
 .logoContainer {
     width: 4vw;
     height: 4vh;

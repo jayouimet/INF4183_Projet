@@ -6,10 +6,12 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import NavIcon from "./navicon";
 import { useState, useContext } from 'react';
 import { ColorModeContext } from "../../pages/_app";
+import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({isMainPage, ...props}) {
     const theme = useTheme();
     const colorMode = useContext(ColorModeContext);
+
     const links = [
         { "href": "/", "title": "Accueil" },
         { "href": "/news", "title": "Nouvelles" },
@@ -31,7 +33,7 @@ export default function Navbar() {
                 <Grid container alignItems={"center"}>
                     <Grid item xs={5}>
                         <Grid container alignItems="center" justifyContent="space-around">
-                            <Grid item xs={12}><NavIcon /></Grid>
+                            <Grid item xs={12}>{isMainPage ? <NavIcon /> : <Link href="/"><NavIcon /></Link>}</Grid>
                         </Grid>
                     </Grid>
                     <Grid item xs={6}>

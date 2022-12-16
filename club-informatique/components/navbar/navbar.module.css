@@ -11,5 +11,14 @@
 }
 
 .activeLink{
-    color:rgba(255, 0, 0, 0.875);
+    color: rgba(255, 255, 255, 0.6);
+    border-bottom: rgba(255, 255, 255, 0.6) 2px solid;
+}
+
+.link {
+    font-weight: 500;
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.6);
 }

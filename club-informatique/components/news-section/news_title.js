@@ -2,6 +2,6 @@ import styles from "./news_title.module.css";
 
 export default function NewsTitle({children, ...props}) {
     return (
-        <div className={styles.title} {...props}>{children}</div>
+        <h3 className={styles.title} {...props}>{children}</h3>
     );
 }
